@@ -7,7 +7,7 @@ saving it in history.
 ====================
 1. While in the src directory, enter "make run" to compile and run the
 tokenizer.
-2.When finished enter "make clean" to remove object files.
+2. When finished enter "make clean" to remove object files.
 
 ## User Command Instructions:
 ====================
