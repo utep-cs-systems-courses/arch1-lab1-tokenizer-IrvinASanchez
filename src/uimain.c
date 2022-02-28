@@ -27,7 +27,7 @@ int main(){
       tokens = tokenize(str);
       printf("\n");
       print_tokens(tokens);
-      //free_tokens(tokens);
+      free_tokens(tokens);
       break;
 
     case '!':

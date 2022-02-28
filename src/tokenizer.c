@@ -8,8 +8,8 @@ char *word_terminator(char *word){
   while(*(word + i)){
     if(space_char(*(word + i))){
 	  return word + i;
-      }
-      i++;
+    }
+    i++;
   }
   return word + i;	
 }
@@ -30,7 +30,6 @@ char *word_start(char *str){
 int count_words(char *str){
   char *temp = str;
   temp = word_start(temp);
-  int i = 0;
   int count = 0;
   while(non_space_char(*temp)){
     if (*temp == '\0'){
