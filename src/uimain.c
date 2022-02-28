@@ -6,7 +6,7 @@
 int main(){
   
   char str[100];
-  int i;
+  char i;
   char **tokens;
   char *list;
   List *history = init_history();
